@@ -5,7 +5,7 @@ import onedrive
 
 dotenv.load_dotenv()
 
-LOG_LEVEL = int(os.getenv("LOG_LEVEL", "INFO"))
+LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 
 # Dict config for logger
 
